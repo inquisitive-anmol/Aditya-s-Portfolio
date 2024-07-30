@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  output: 'export',
+  distDir: 'out',
+};
 
-// export default nextConfig;
-// next.config.mjs
-export default {
-    output: 'export',
-    distDir: 'out',
-  };
+export default nextConfig;
+
   
