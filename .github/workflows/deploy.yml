@@ -3,7 +3,7 @@ name: Deploy Next.js app to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change this to your default branch
+      - gh-pages  # Change this to your default branch
 
 jobs:
   deploy:
