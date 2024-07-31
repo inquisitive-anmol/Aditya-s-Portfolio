@@ -13,7 +13,7 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-4 md:row-span-2 lg:min-h-[60vh]",
       imgClassName: "w-full h-full opacity-[.6789]",
       titleClassName: "justify-end",
-      img: "/vediting1.jpg",
+      img: "./vediting1.jpg",
       spareImg: "",
     },
     {
@@ -43,7 +43,7 @@ export const navItems = [
       className: "lg:col-span-1 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
+      img: "./grid.svg",
       spareImg: "/b4.svg",
     },
   
@@ -54,8 +54,8 @@ export const navItems = [
       className: "md:col-span-2 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 md:h-96 h-60 opacity-[0.6789]",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/vediting.jpg",
-      spareImg: "/grid.svg",
+      img: "./vediting.jpg",
+      spareImg: "./grid.svg",
     },
     {
       id: 6,
@@ -74,16 +74,16 @@ export const navItems = [
       id: 1,
       title: "3D Solar System Planets to Explore",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.png",
-      iconLists: ["/appro.svg", "/canva.svg", "/aae.svg", "/ap.svg"],
+      img: "./p1.png",
+      iconLists: ["./appro.svg", "./canva.svg", "./aae.svg", "./ap.svg"],
       link: "https://www.instagram.com/p/C-AZCg5B0FM/",
     },
     {
       id: 2,
       title: "Yoom - Video Conferencing App",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.png",
-      iconLists:  ["/appro.svg", "/aae.svg", "/ap.svg", "/canva.svg"],
+      img: "./p2.png",
+      iconLists:  ["./appro.svg", "./aae.svg", "./ap.svg", "./canva.svg"],
       link: "https://www.instagram.com/p/C95AD3JvhR7/",
     },
     // {
@@ -141,32 +141,32 @@ export const navItems = [
     {
       id: 1,
       name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      img: "./cloud.svg",
+      nameImg: "./cloudName.svg",
     },
     {
       id: 2,
       name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      img: "./app.svg",
+      nameImg: "./appName.svg",
     },
     {
       id: 3,
       name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
+      img: "./host.svg",
+      nameImg: "./hostName.svg",
     },
     {
       id: 4,
       name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
+      img: "./s.svg",
+      nameImg: "./streamName.svg",
     },
     {
       id: 5,
       name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      img: "./dock.svg",
+      nameImg: "./dockerName.svg",
     },
   ];
   
@@ -176,35 +176,35 @@ export const navItems = [
       title: "Adobe Premier Pro",
       desc: "Worked in the creation of engaging video content using Adobe Premiere Pro, enhancing viewer experience for renowned YouTubers.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "./exp1.svg",
     },
     {
       id: 2,
       title: "Adobe After Effect",
       desc: "Worked in the development of motion graphics and video editing using Adobe Premiere Pro, enhancing visual storytelling for renowned YouTubers.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: "./exp2.svg",
     },
     {
       id: 3,
       title: "Freelance Video Editor",
       desc: "Worked in the creation of diverse video projects as a freelancer, utilizing Adobe Premiere Pro to enhance visual content for various clients.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+      thumbnail: "./exp3.svg",
     },
     {
       id: 4,
       title: "Short Form Video Editing",
       desc: "Specialized in short-form video editing, leveraging Adobe Premiere Pro to craft engaging and impactful content for various clients.",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "./exp4.svg",
     },
   ];
   
   export const socialMedia = [
     {
       id: 1,
-      img: "/inst.svg",
+      img: "./inst.svg",
     },
     // {
     //   id: 2,
