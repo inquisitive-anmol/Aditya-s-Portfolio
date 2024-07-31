@@ -15,7 +15,7 @@ const Navbar = ({
   <ul className='flex items-center justify-between'>
  {
    navItems.map(({link, name}) => (
-    <li> <a className='text-white hover:text-meColorT-200 cursor-pointer md:text-md lg:text-xl text-xs' href={link}>{name}</a></li>
+    <li key={name}> <a className='text-white hover:text-meColorT-200 cursor-pointer md:text-md lg:text-xl text-xs' href={link}>{name}</a></li>
    ))
  }
     
